@@ -50,6 +50,7 @@ let s:pink      = g:dracula#palette.pink
 let s:purple    = g:dracula#palette.purple
 let s:red       = g:dracula#palette.red
 let s:yellow    = g:dracula#palette.yellow
+let s:blue      = g:dracula#palette.blue
 
 let s:none      = ['NONE', 'NONE']
 
@@ -151,6 +152,11 @@ call s:h('DraculaSubtle', s:subtle)
 
 call s:h('DraculaCyan', s:cyan)
 call s:h('DraculaCyanItalic', s:cyan, s:none, [s:attrs.italic])
+call s:h('DraculaCyanBoldItalic', s:cyan, s:none, [s:attrs.bold, s:attrs.italic])
+
+call s:h('DraculaBlue', s:blue)
+call s:h('DraculaBlueItalic', s:blue, s:none, [s:attrs.italic])
+call s:h('DraculaBlueBoldItalic', s:blue, s:none, [s:attrs.bold, s:attrs.italic])
 
 call s:h('DraculaGreen', s:green)
 call s:h('DraculaGreenBold', s:green, s:none, [s:attrs.bold])
@@ -241,6 +247,26 @@ hi! link VisualNOS    Visual
 hi! link WarningMsg   DraculaOrangeInverse
 
 " }}}
+
+" Tree Sitter: {{{
+
+highlight! link TSAnnotation DraculaCyanItalic
+highlight! link TSAttribute DraculaCyan
+highlight! link TSConstant DraculaPurple
+highlight! link TSConstBuiltin DraculaCyanItalic
+highlight! link TSError DraculaRed
+highlight! link TSFuncBuiltin DraculaCyanBoldItalic
+highlight! link TSInclude DraculaPink
+highlight! link TSKeywordOperator DraculaPink
+highlight! link TSNamespace DraculaCyan
+highlight! link TSParameter DraculaOrangeItalic
+highlight! link TSPunctSpecial DraculaPink
+highlight! link TSType DraculaBlueItalic
+highlight! link TSTypeBuiltin DraculaBlueItalic
+highlight! link TSVariableBuiltin DraculaCyanItalic
+
+" }}}
+
 " Syntax: {{{
 
 " Required as some plugins will overwrite
