@@ -251,19 +251,21 @@ hi! link WarningMsg   DraculaOrangeInverse
 " Tree Sitter: {{{
 
 highlight! link TSAnnotation DraculaCyanItalic
-highlight! link TSAttribute DraculaCyan
+highlight! link TSAttribute DraculaBlue
 highlight! link TSConstant DraculaPurple
-highlight! link TSConstBuiltin DraculaCyanItalic
+highlight! link TSConstBuiltin DraculaPurple
+highlight! link TSConstructor DraculaPurpleItalic
 highlight! link TSError DraculaRed
+highlight! link TSField DraculaBlue
 highlight! link TSFuncBuiltin DraculaCyanBoldItalic
 highlight! link TSInclude DraculaPink
 highlight! link TSKeywordOperator DraculaPink
 highlight! link TSNamespace DraculaCyan
 highlight! link TSParameter DraculaOrangeItalic
 highlight! link TSPunctSpecial DraculaPink
-highlight! link TSType DraculaBlueItalic
-highlight! link TSTypeBuiltin DraculaBlueItalic
-highlight! link TSVariableBuiltin DraculaCyanItalic
+highlight! link TSType DraculaCyanItalic
+highlight! link TSTypeBuiltin DraculaCyanItalic
+highlight! link TSVariableBuiltin DraculaPurpleItalic
 
 " }}}
 
