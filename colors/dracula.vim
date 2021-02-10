@@ -250,11 +250,11 @@ hi! link WarningMsg   DraculaOrangeInverse
 
 " Tree Sitter: {{{
 
-highlight! link TSAnnotation DraculaCyanItalic
+highlight! link TSAnnotation DraculaGreenItalic
 highlight! link TSAttribute DraculaBlue
 highlight! link TSConstant DraculaPurple
 highlight! link TSConstBuiltin DraculaPurple
-highlight! link TSConstructor DraculaPurpleItalic
+highlight! link TSConstructor DraculaCyanItalic
 highlight! link TSError DraculaRed
 highlight! link TSField DraculaBlue
 highlight! link TSFuncBuiltin DraculaCyanBoldItalic
