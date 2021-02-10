@@ -258,14 +258,17 @@ highlight! link TSConstructor DraculaCyanItalic
 highlight! link TSError DraculaRed
 highlight! link TSField DraculaBlue
 highlight! link TSFuncBuiltin DraculaCyanBoldItalic
+highlight! link TSFunction DraculaGreen
 highlight! link TSInclude DraculaPink
 highlight! link TSKeywordOperator DraculaPink
+highlight! link TSMethod DraculaGreen
 highlight! link TSNamespace DraculaCyan
 highlight! link TSParameter DraculaOrangeItalic
 highlight! link TSPunctSpecial DraculaPink
 highlight! link TSType DraculaCyanItalic
 highlight! link TSTypeBuiltin DraculaCyanItalic
 highlight! link TSVariableBuiltin DraculaPurpleItalic
+highlight! link TSVariable DraculaFg
 
 " }}}
 
